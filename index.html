@@ -5,7 +5,7 @@
 <title>天気予報ウィジェット</title>
 <style>
   :root{
-    --bg:#ffffff; --fg:#1a1a1a; --sub:#666;
+    --bg:#eaf4fb; --fg:#1a1a1a; --sub:#666;
     --border:#e3e3e3; --accent:#2b6cb0; --head-bg:#f5f7fa;
   }
   *{box-sizing:border-box;}
@@ -44,9 +44,9 @@
 <!-- ==================== 設定ここだけ変えればOK ==================== -->
 <script>
   const CONFIG = {
-    placeName: "大阪",          // 表示用の地名
-    latitude: 34.6937,           // 緯度
-    longitude: 135.5023,         // 経度
+    placeName: "京都市伏見区",          // 表示用の地名
+    latitude: 34.9328,           // 緯度
+    longitude: 135.7642,         // 経度
     // 緯度経度は「地名 緯度経度」でGoogle検索すればすぐ見つかります
   };
   const TODAY_HOURS = [0,3,6,12,15,18,21]; // 表示する時刻(今日・明日共通)
