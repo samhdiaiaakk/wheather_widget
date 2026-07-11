@@ -1,2 +1,3 @@
 # wheather_widget
-for my notion
+- URL
+  - https://samhdiaiaakk.github.io/wheather_widget/
